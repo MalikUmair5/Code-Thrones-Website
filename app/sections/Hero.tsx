@@ -3,8 +3,8 @@ const Hero = () => {
     <main className="lg:px-20 xs:px-3 md:px-10 lg:py-2 md:py-0">
       <div className=" flex items-center xs:flex-wrap md:flex-nowrap">
         <div className="">
-          <h1 className=" font-bold text-[60px] leading-normal tracking-tighter">Audience of your kind</h1>
-          <p className="w-[580px] text-[18px] tracking-[0.24px]"> 
+          <h1 className="font-bold text-[60px] xs:text-[40px] leading-normal tracking-tighter">Audience of your kind</h1>
+          <p className="lg:w-[580px] text-[18px] tracking-[0.24px] xs:w-auto xs:font-[20px]"> 
             We аre аn аgenсy thаt believe in the роwer оf digitаl tо trаnsfоrm
             yоur business. Whether it be а new website, mаrketing саmраign оr
             рrоduсtivity imрrоving sоftwаre, digitаl саn trаnsfоrm аnd grоw yоur

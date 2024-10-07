@@ -14,12 +14,11 @@ const Header = () => {
     setIsMenuOpen(!isMenuOpen);
   };
   return (
-    <header className="lg:px-20 xs:px-8 md:px-20 py-2 flex justify-between items-center">
+    <header className="lg:px-20 xs:px-1 md:px-10 py-2 flex justify-between items-center">
       <div className=" flex items-center">
-        <Image height={89} width={100} src={companyLogo} alt="Company Logo" />
+        <Image height={89} width={100} src={companyLogo} alt="Company Logo" placeholder="blur" />
         <p className=" text-[24px]">ADELSOCIAL</p>
       </div>
-
       <div>
         <div className=" lg:hidden">
           <button>
@@ -30,9 +29,10 @@ const Header = () => {
             )}
           </button>
         </div>
-        <div className=" md:hidden lg:block sm:hidden xs:hidden">
-          <ul className=" flex gap-8">
-            <li>about</li>
+
+        <div className=" md:hidden lg:block sm:hidden xs:hidden lg:text-white">
+          <ul className=" flex gap-8 font-[400] leading-normal text-[13px]">
+            <li>About</li>
             <li>
               Domain & Hosting
               <KeyboardArrowDownIcon />

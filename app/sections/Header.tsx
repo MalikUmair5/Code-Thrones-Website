@@ -16,16 +16,16 @@ const Header = () => {
   return (
     <header className="lg:px-20 xs:px-1 md:px-10 py-2 flex justify-between items-center">
       <div className=" flex items-center">
-        <Image className=" md:w-[200px]" src={companyLogo} alt="Company Logo" placeholder="blur" />
+        <Image className="w-[100px]" src={companyLogo} alt="Company Logo" placeholder="blur" />
         <p className=" text-[24px]">ADELSOCIAL</p>
       </div>
       <div>
         <div className=" lg:hidden">
-          <button>
+          <button className=" mr-3">
             {isMenuOpen ? (
-              <CloseIcon className="text-[100px]" onClick={toggleMenu} />
+              <CloseIcon onClick={toggleMenu} />
             ) : (
-              <MenuIcon className=" md:text-[100px]" onClick={toggleMenu} />
+              <MenuIcon className=" text-[2-" onClick={toggleMenu} />
             )}
           </button>
         </div>
